@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurora Luxe Hotel | Donde el lujo encuentra tu descanso</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Admin Login Button -->
+    <div class="admin-login">
+        <button class="admin-btn" id="adminBtn">Admin</button>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-icon"></div>
+                <div>
+                    <div class="logo-text">Aurora Luxe</div>
+                    <div class="logo-slogan">Donde el lujo encuentra tu descanso</div>
+                </div>
+            </div>
+            <div class="mobile-menu" id="mobileMenu">☰</div>
+            <nav>
+                <ul id="navMenu">
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#rooms">Habitaciones</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#gallery">Galería</a></li>
+                    <li><a href="#testimonials">Opiniones</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-slider">
+            <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');">
+                <div class="slide-content">
+                    <h1>Bienvenido a Aurora Luxe Hotel</h1>
+                    <p>Experimente el lujo en su máxima expresión en nuestro exclusivo hotel de 5 estrellas</p>
+                    <a href="#contact" class="btn-reserve">Reservar Ahora</a>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');">
+                <div class="slide-content">
+                    <h1>Elegancia y Confort</h1>
+                    <p>Disfrute de nuestras suites premium con vistas espectaculares y servicios de primera clase</p>
+                    <a href="#rooms" class="btn-reserve">Ver Habitaciones</a>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1584132967334-10e028bd69f7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');">
+                <div class="slide-content">
+                    <h1>Gastronomía Excepcional</h1>
+                    <p>Descubra nuestros restaurantes gourmet con chefs de renombre internacional</p>
+                    <a href="#services" class="btn-reserve">Nuestros Servicios</a>
+                </div>
+            </div>
+        </div>
+        <a href="#contact" class="floating-btn">Reservar</a>
+    </section>
+
+    <!-- Rooms Section -->
+    <section class="section" id="rooms">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nuestras Habitaciones</h2>
+            </div>
+            <div class="rooms-grid">
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Suite Presidencial">
+                    </div>
+                    <div class="room-content">
+                        <h3>Suite Presidencial</h3>
+                        <div class="room-price">$650 / noche</div>
+                        <div class="room-amenities">
+                            <div class="amenity"><i>✓</i> 120 m²</div>
+                            <div class="amenity"><i>✓</i> Vista al mar</div>
+                            <div class="amenity"><i>✓</i> Jacuzzi</div>
+                        </div>
+                        <p>Nuestra suite más exclusiva con terraza privada, sala de estar separada y servicios de mayordomo.</p>
+                        <a href="#" class="btn-more">Ver más</a>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Suite Deluxe">
+                    </div>
+                    <div class="room-content">
+                        <h3>Suite Deluxe</h3>
+                        <div class="room-price">$450 / noche</div>
+                        <div class="room-amenities">
+                            <div class="amenity"><i>✓</i> 80 m²</div>
+                            <div class="amenity"><i>✓</i> Balcón</div>
+                            <div class="amenity"><i>✓</i> Minibar</div>
+                        </div>
+                        <p>Amplia suite con zona de estar, baño de mármol y acceso premium a todas las instalaciones del hotel.</p>
+                        <a href="#" class="btn-more">Ver más</a>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Habitación Superior">
+                    </div>
+                    <div class="room-content">
+                        <h3>Habitación Superior</h3>
+                        <div class="room-price">$320 / noche</div>
+                        <div class="room-amenities">
+                            <div class="amenity"><i>✓</i> 45 m²</div>
+                            <div class="amenity"><i>✓</i> Vista ciudad</div>
+                            <div class="amenity"><i>✓</i> Smart TV</div>
+                        </div>
+                        <p>Elegante habitación con comodidades modernas, cama king size y baño con amenities de lujo.</p>
+                        <a href="#" class="btn-more">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nuestros Servicios</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">♨</div>
+                    <h3>Spa & Bienestar</h3>
+                    <p>Relájese en nuestro spa de clase mundial con tratamientos personalizados.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🍽</div>
+                    <h3>Restaurante Gourmet</h3>
+                    <p>Disfrute de experiencias culinarias excepcionales con chefs internacionales.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏊</div>
+                    <h3>Piscina Infinity</h3>
+                    <p>Nuestra espectacular piscina con vistas panorámicas al horizonte.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💪</div>
+                    <h3>Gimnasio Premium</h3>
+                    <p>Equipamiento de última generación con entrenadores personales.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎉</div>
+                    <h3>Salones para Eventos</h3>
+                    <p>Espacios elegantes para bodas, conferencias y eventos corporativos.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🍸</div>
+                    <h3>Lounge Bar</h3>
+                    <p>Ambiente sofisticado con cócteles exclusivos y música en vivo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Galería de Experiencias</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Hotel Lobby">
+                    <div class="gallery-overlay">
+                        <i>🔍</i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Habitación de Lujo">
+                    <div class="gallery-overlay">
+                        <i>🔍</i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Suite Presidencial">
+                    <div class="gallery-overlay">
+                        <i>🔍</i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Restaurante">
+                    <div class="gallery-overlay">
+                        <i>🔍</i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Spa">
+                    <div class="gallery-overlay">
+                        <i>🔍</i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Piscina">
+                    <div class="gallery-overlay">
+                        <i>🔍</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section" id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Opiniones de Nuestros Clientes</h2>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial active">
+                    <div class="client-photo">
+                        <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Cliente 1">
+                    </div>
+                    <div class="rating">★★★★★</div>
+                    <p>"Nuestra estancia en Aurora Luxe Hotel fue simplemente perfecta. El servicio excepcional y las instalaciones de primera clase superaron todas nuestras expectativas."</p>
+                    <div class="client-name">- María González</div>
+                </div>
+                <div class="testimonial">
+                    <div class="client-photo">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Cliente 2">
+                    </div>
+                    <div class="rating">★★★★★</div>
+                    <p>"El spa es increíble y la suite presidencial tiene unas vistas espectaculares. Definitivamente volveremos para nuestro aniversario el próximo año."</p>
+                    <div class="client-name">- Carlos Rodríguez</div>
+                </div>
+                <div class="testimonial">
+                    <div class="client-photo">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Cliente 3">
+                    </div>
+                    <div class="rating">★★★★☆</div>
+                    <p>"Celebramos nuestra boda en el hotel y todo fue mágico. El equipo de eventos hizo que cada detalle fuera perfecto. Altamente recomendado."</p>
+                    <div class="client-name">- Ana Martínez</div>
+                </div>
+            </div>
+            <div class="slider-nav">
+                <div class="slider-dot active"></div>
+                <div class="slider-dot"></div>
+                <div class="slider-dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Ubicación y Contacto</h2>
+            </div>
+            <div class="contact-container">
+                <div class="map-container">
+                    <!-- Mapa de Google Maps actualizado -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d915.6454601372593!2d-64.80471546751977!3d-30.721401628763477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1764119982697!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contact-form">
+                    <form id="reservationForm">
+                        <div class="form-group">
+                            <label for="name">Nombre completo</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group date-group">
+                            <div>
+                                <label for="checkin">Check-in</label>
+                                <input type="date" id="checkin" class="form-control" required>
+                            </div>
+                            <div>
+                                <label for="checkout">Check-out</label>
+                                <input type="date" id="checkout" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="roomType">Tipo de habitación</label>
+                            <select id="roomType" class="form-control" required>
+                                <option value="">Seleccione una opción</option>
+                                <option value="standard">Habitación Standard</option>
+                                <option value="superior">Habitación Superior</option>
+                                <option value="deluxe">Suite Deluxe</option>
+                                <option value="presidential">Suite Presidencial</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje adicional</label>
+                            <textarea id="message" class="form-control" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Enviar Reserva</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>Aurora Luxe Hotel</h3>
+                    <p>Donde el lujo encuentra tu descanso. Experimente la excelencia en hospitalidad en nuestro hotel de 5 estrellas.</p>
+                    <div class="social-links">
+                        <a href="#"><i>f</i></a>
+                        <a href="#"><i>t</i></a>
+                        <a href="#"><i>in</i></a>
+                        <a href="#"><i>ig</i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#rooms">Habitaciones</a></li>
+                        <li><a href="#services">Servicios</a></li>
+                        <li><a href="#gallery">Galería</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><i>📍</i> 123 Luxury Avenue, Ciudad</li>
+                        <li><i>📞</i> +1 234 567 890</li>
+                        <li><i>✉</i> info@auroraluxe.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2023 Aurora Luxe Hotel. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightbox-img">
+            <div class="lightbox-close" id="lightbox-close">×</div>
+            <div class="lightbox-nav">
+                <button id="lightbox-prev">‹</button>
+                <button id="lightbox-next">›</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Admin Panel -->
+    <div class="admin-panel" id="adminPanel">
+        <div class="admin-header">
+            <h2>Panel de Administración</h2>
+            <button class="admin-close" id="adminClose">×</button>
+        </div>
+        <div class="admin-tabs">
+            <div class="admin-tab active" data-tab="stats">Estadísticas</div>
+            <div class="admin-tab" data-tab="rooms">Habitaciones</div>
+            <div class="admin-tab" data-tab="services">Servicios</div>
+            <div class="admin-tab" data-tab="gallery">Galería</div>
+            <div class="admin-tab" data-tab="seo">SEO</div>
+        </div>
+        <div class="admin-content active" id="stats-content">
+            <h3>Estadísticas del Sitio</h3>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value" id="totalVisitors">1,247</div>
+                    <div class="stat-label">Visitantes Totales</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="reservationClicks">89</div>
+                    <div class="stat-label">Clicks en Reservar</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="roomViews">324</div>
+                    <div class="stat-label">Vistas de Habitaciones</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="contactForms">42</div>
+                    <div class="stat-label">Formularios Enviados</div>
+                </div>
+            </div>
+            <h3>Visitas por Sección</h3>
+            <div class="chart-container">
+                <div class="chart-bar" style="height: 80%;"><div class="chart-label">Inicio</div></div>
+                <div class="chart-bar" style="height: 65%;"><div class="chart-label">Habitaciones</div></div>
+                <div class="chart-bar" style="height: 45%;"><div class="chart-label">Servicios</div></div>
+                <div class="chart-bar" style="height: 30%;"><div class="chart-label">Galería</div></div>
+                <div class="chart-bar" style="height: 25%;"><div class="chart-label">Contacto</div></div>
+            </div>
+        </div>
+        <div class="admin-content" id="rooms-content">
+            <h3>Gestión de Habitaciones</h3>
+            <div class="form-edit">
+                <h4>Suite Presidencial</h4>
+                <div class="form-group">
+                    <label>Nombre</label>
+                    <input type="text" class="form-control" value="Suite Presidencial">
+                </div>
+                <div class="form-group">
+                    <label>Descripción</label>
+                    <textarea class="form-control" rows="3">Nuestra suite más exclusiva con terraza privada, sala de estar separada y servicios de mayordomo.</textarea>
+                </div>
+                <div class="form-group">
+                    <label>Precio ($)</label>
+                    <input type="number" class="form-control" value="650">
+                </div>
+                <div class="form-group">
+                    <label>Disponibilidad</label>
+                    <select class="form-control">
+                        <option>Disponible</option>
+                        <option>No Disponible</option>
+                    </select>
+                </div>
+                <button class="btn-submit">Guardar Cambios</button>
+            </div>
+        </div>
+        <div class="admin-content" id="services-content">
+            <h3>Gestión de Servicios</h3>
+            <div class="form-edit">
+                <h4>Spa & Bienestar</h4>
+                <div class="form-group">
+                    <label>Título</label>
+                    <input type="text" class="form-control" value="Spa & Bienestar">
+                </div>
+                <div class="form-group">
+                    <label>Descripción</label>
+                    <textarea class="form-control" rows="3">Relájese en nuestro spa de clase mundial con tratamientos personalizados.</textarea>
+                </div>
+                <button class="btn-submit">Guardar Cambios</button>
+            </div>
+        </div>
+        <div class="admin-content" id="gallery-content">
+            <h3>Gestión de Galería</h3>
+            <div class="form-group">
+                <label>Subir Nueva Imagen</label>
+                <input type="file" class="form-control">
+            </div>
+            <button class="btn-submit">Subir Imagen</button>
+            <div style="margin-top: 20px;">
+                <h4>Imágenes Actuales</h4>
+                <p>Arrastra para reorganizar</p>
+                <!-- Lista de imágenes existentes -->
+            </div>
+        </div>
+        <div class="admin-content" id="seo-content">
+            <h3>Configuración SEO</h3>
+            <div class="form-edit">
+                <h4>Meta Título</h4>
+                <div class="form-group">
+                    <input type="text" class="form-control" value="Aurora Luxe Hotel | Donde el lujo encuentra tu descanso">
+                </div>
+                <h4>Meta Descripción</h4>
+                <div class="form-group">
+                    <textarea class="form-control" rows="3">Experimente el lujo en su máxima expresión en nuestro exclusivo hotel de 5 estrellas. Reserve su estancia inolvidable hoy.</textarea>
+                </div>
+                <button class="btn-submit">Guardar Cambios</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
